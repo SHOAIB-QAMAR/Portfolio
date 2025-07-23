@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Toggle Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Shoaib</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <i class="fas fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi all, I'm Shoaib <span class="highlight">°°</span></h1>
+
+                <h2>A passionate Full Stack Software Developer</h2>
+                <p>having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /
+                    React and some other cool libraries and frameworks.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">CONTACT ME</a>
+                    <a href="Shoaib-Resume.pdf" class="btn btn-secondary" download>DOWNLOAD MY RESUME</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what-i-do" id="about">
+        <div class="container">
+            <h2 class="section-title">What I do</h2>
+            <h3 class="section-subtitle">CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE DIFFERENT TECH STACK</h3>
+
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>
+                        Build responsive UIs with React or JavaScript.
+                        Focus on performance, accessibility, and seamless user experiences.
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-server"></i>
+                    <h4>Backend Development</h4>
+                    <p>
+                        Architect scalable APIs and microservices using Node.js, Express.
+                        Integrate databases (MongoDB, SQL) and cloud services.
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-cogs"></i>
+                    <h4>Full Stack Solutions</h4>
+                    <p>
+                        End-to-end development from UI to deployment.
+                        Specialize in MERN (MongoDB, Express, React, Node.js).
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Proficiency</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code category-icon"></i>
+                        <h3>Frontend/Design</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar html-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar css-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar js-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar react-bar" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server category-icon"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar node-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Express</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar express-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar sql-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code category-icon"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar java-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar cpp-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar python-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="tech-icons">
+        <div>Explored Tech</div>
+        <div class="icon-group">
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-js" title="JavaScript"></i>
+            <i class="fab fa-react" title="React"></i>
+            <i class="fab fa-node-js" title="Node.js"></i>
+            <i class="fab fa-npm" title="NPM"></i>
+        </div>
+        <div class="icon-group">
+            <i class="fas fa-database" title="SQL"></i>
+            <i class="fas fa-fire" title="Firebase"></i>
+            <i class="fab fa-python" title="Python"></i>
+        </div>
+    </div>
+    </div>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">My <span>Academic Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2026</div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>Master of Computer Application</h3>
+                                <div class="university-badge">AMU</div>
+                            </div>
+                            <h4>Aligarh Muslim University</h4>
+                            <div class="card-body">
+                                <div class="gpa-chip">
+                                    <i class="fas fa-star"></i> 8.5 CGPA
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>Bachelor of Science in Mathematics</h3>
+                                <div class="university-badge">AMU</div>
+                            </div>
+                            <h4>Aligarh Muslim University</h4>
+                            <div class="card-body">
+                                <div class="gpa-chip">
+                                    <i class="fas fa-trophy"></i> 8.854 CGPA
+                                </div>
+                                <div class="achievement-badge">Top 2 in Program</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>Intermediate (12th)</h3>
+                                <div class="school-badge">CBSE</div>
+                            </div>
+                            <h4>Sir Bilal Convent School</h4>
+                            <div class="card-body">
+                                <div class="score-pill">
+                                    Marks : 80%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2019</div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>High School (10th)</h3>
+                                <div class="school-badge">CBSE</div>
+                            </div>
+                            <h4>Sir Bilal Convent School</h4>
+                            <div class="card-body">
+                                <div class="score-pill highlight">
+                                    Marks : 89.83%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project-container">
+            <h2 class="section-title">Major Project</h2>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1639425436592-be84ed01f384?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Saayahealth">
+                <div class="project-info">
+                    <h4>Airbnb Clone</h4>
+                    <p>A full-stack web application replicating Airbnb’s core functionality, enabling users to browse,
+                        and manage unique
+                        stays worldwide. Designed to showcase expertise in building scalable, user-centric platforms
+                        with
+                        secure authentication
+                        and real-time data handling.</p>
+                    <div class="project-buttons">
+                        <a href="https://major-project-1-gm4c.onrender.com" class="demo-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/SHOAIB-QAMAR/Major-Project-1" class="code-btn" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="section-title">Minor Project</h2>
+            <div class="project-item">
+                <img src="https://images.unsplash.com/photo-1667418624689-540f55015c39?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D"
+                    alt="Nextu">
+                <div class="project-info">
+                    <h4>Todo List</h4>
+                    <p>A lightweight yet powerful task management web application that helps users organize daily
+                        activities, set priorities,
+                        and boost productivity. Built to demonstrate core frontend and backend integration skills.</p>
+                    <div class="project-buttons">
+                        <a href="https://todo-list-kocl.onrender.com" class="demo-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/SHOAIB-QAMAR/Todo_List" class="code-btn" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="https://plus.unsplash.com/premium_photo-1687854992749-e15cba89631d?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8R2FtZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Nextu">
+                <div class="project-info">
+                    <h4>Simon Say Game</h4>
+                    <p>A fun and interactive memory game where players replicate increasingly complex sequences of
+                        lights
+                        and sounds. Designed
+                        to test cognitive skills while showcasing frontend development expertise.</p>
+                    <div class="project-buttons">
+                        <a href="https://simon-say-game-i75e.onrender.com" class="demo-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/SHOAIB-QAMAR/Simon_Say_Game" class="code-btn" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-message">
+                    <p>I'm currently looking for new opportunities. Feel free to reach out!</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/shoaib-qamar-66221a340/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:shoaibqamar539@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> by Shoaib</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
